@@ -27,11 +27,11 @@ Pod::Spec.new do |s|
     s.author           = { '唐--逍遥' => '838210419@qq.com' }
     s.source           = { :git => 'https://github.com/tangguoan/wechatPay.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-    s.ios.deployment_target = '8.0'
+    s.ios.deployment_target = '7.0'
     s.source_files = 'Pod/**/*.{h,m,mm}'
-
+    s.requires_arc = true
     s.resource_bundles = {
-    'manban-base-sdk' => ['Pod/Assets/*.png', 'Pod/Assets/**/*.png', 'Pod/Assets/*.gif', 'Pod/Assets/*.plist', 'Pod/Strings/*.strings']
+    'wechatPay' => ['Pod/Assets/*.png', 'Pod/Assets/**/*.png', 'Pod/Assets/*.gif', 'Pod/Assets/*.plist', 'Pod/Strings/*.strings']
 }
     s.vendored_libraries      = 'Pod/**/libWeChatSDK.a'
     s.frameworks              = 'SystemConfiguration', 'CoreTelephony', 'UIKit', 'Foundation'
