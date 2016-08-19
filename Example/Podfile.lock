@@ -1,5 +1,5 @@
 PODS:
-  - wechatPay (0.1.0)
+  - wechatPay (0.1.1)
 
 DEPENDENCIES:
   - wechatPay (from `../../wechatPay`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../../wechatPay
 
 SPEC CHECKSUMS:
-  wechatPay: eba446c028d510c4172eeaf0ee3c2717bfd0af0d
+  wechatPay: f4a734ce8a34c3ed92a52e211797c120ea61e377
 
 PODFILE CHECKSUM: 87c23965b0eeaa28133abc580dd27da139d70475
 

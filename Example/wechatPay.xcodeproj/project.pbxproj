@@ -22,6 +22,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		DB7012D0267B6E48F17593B0 /* Pods_wechatPay_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F4075F4D22A9372F59BBC2 /* Pods_wechatPay_Example.framework */; };
+		E258F11D1D66D7DD00A61BE4 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E258F11C1D66D7DD00A61BE4 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8E22FDC7EA1AE579AA5F7E6B /* Pods-wechatPay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wechatPay_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-wechatPay_Example/Pods-wechatPay_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C0E3492F303158C582798FA5 /* wechatPay.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = wechatPay.podspec; path = ../wechatPay.podspec; sourceTree = "<group>"; };
+		E258F11C1D66D7DD00A61BE4 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				E258F11C1D66D7DD00A61BE4 /* Launch Screen.storyboard */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for wechatPay */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -272,6 +275,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				E258F11D1D66D7DD00A61BE4 /* Launch Screen.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,6 +517,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -529,6 +534,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

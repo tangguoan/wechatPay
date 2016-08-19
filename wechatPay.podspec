@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'wechatPay'
   s.version          = '0.1.1'
-  s.summary          = '微信的SDK'
+  s.summary          = 'FQwechatPaySDK'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
     s.source_files = 'Pod/**/*.{h,m,mm}'
     s.requires_arc = true
     s.resource_bundles = {
-    'wechatPay' => ['Pod/Assets/*.png', 'Pod/Assets/**/*.png', 'Pod/Assets/*.gif', 'Pod/Assets/*.plist', 'Pod/Strings/*.strings']
+    'wechatPay' => ['Pod/Assets/*.png', 'Pod/Assets/*.gif']
 }
     s.vendored_libraries      = 'Pod/**/libWeChatSDK.a'
     s.frameworks              = 'SystemConfiguration', 'CoreTelephony', 'UIKit', 'Foundation'
