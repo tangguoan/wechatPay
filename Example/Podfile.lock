@@ -1,0 +1,16 @@
+PODS:
+  - wechatPay (0.1.0)
+
+DEPENDENCIES:
+  - wechatPay (from `../../wechatPay`)
+
+EXTERNAL SOURCES:
+  wechatPay:
+    :path: ../../wechatPay
+
+SPEC CHECKSUMS:
+  wechatPay: eba446c028d510c4172eeaf0ee3c2717bfd0af0d
+
+PODFILE CHECKSUM: 87c23965b0eeaa28133abc580dd27da139d70475
+
+COCOAPODS: 1.0.1

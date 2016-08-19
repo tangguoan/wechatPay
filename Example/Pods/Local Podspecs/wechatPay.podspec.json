@@ -1,0 +1,43 @@
+{
+  "name": "wechatPay",
+  "version": "0.1.0",
+  "summary": "A short description of wechatPay.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/wechatPay",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "唐--逍遥": "838210419@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/wechatPay.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Pod/**/*.{h,m,mm}",
+  "resource_bundles": {
+    "manban-base-sdk": [
+      "Pod/Assets/*.png",
+      "Pod/Assets/**/*.png",
+      "Pod/Assets/*.gif",
+      "Pod/Assets/*.plist",
+      "Pod/Strings/*.strings"
+    ]
+  },
+  "vendored_libraries": "Pod/**/libWeChatSDK.a",
+  "frameworks": [
+    "SystemConfiguration",
+    "CoreTelephony",
+    "UIKit",
+    "Foundation"
+  ],
+  "libraries": [
+    "sqlite3",
+    "z",
+    "c++"
+  ]
+}

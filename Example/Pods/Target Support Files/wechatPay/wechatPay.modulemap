@@ -1,0 +1,6 @@
+framework module wechatPay {
+  umbrella header "wechatPay-umbrella.h"
+
+  export *
+  module * { export * }
+}

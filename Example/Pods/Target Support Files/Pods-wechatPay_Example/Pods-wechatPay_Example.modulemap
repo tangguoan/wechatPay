@@ -1,0 +1,6 @@
+framework module Pods_wechatPay_Example {
+  umbrella header "Pods-wechatPay_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
